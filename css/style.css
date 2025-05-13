@@ -1,0 +1,52 @@
+/* Base Styles - base.css */
+@import url('./header.css');
+@import url('./products.css');
+@import url('./product-detail.css');
+@import url('./footer.css');
+@import url('./searchbar.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    line-height: 1.5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Page Header (pequeno, pode ficar no style.css principal) */
+.page-header {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.page-header h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.page-header p {
+    color: #6b7280;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
