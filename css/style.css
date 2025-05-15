@@ -1,4 +1,4 @@
-/* Base Styles - base.css */
+
 @import url('./header.css');
 @import url('./products.css');
 @import url('./product-detail.css');
@@ -30,7 +30,7 @@ a {
     color: inherit;
 }
 
-/* Page Header (pequeno, pode ficar no style.css principal) */
+/* Page Header */
 .page-header {
     text-align: center;
     margin: 2rem 0;

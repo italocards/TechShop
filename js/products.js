@@ -42,7 +42,7 @@ const products = [
     },
     {
         id: 5,
-        name: "Tablet\"",
+        name: "Tablet",
         category: "Tablets",
         price: 3299.99,
         rating: 4.7,
